@@ -1,0 +1,50 @@
+.body{
+    background-color: lime;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: rgb(35, 35, 58);
+    width: 310px;
+    height: 40px;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 10px;
+}
+.mensajeNombre,.mensajeCorreo,.mensajeMensaje{
+    color: red;
+}
+
+.borrar{
+    display: none;
+}
+
+.mostrar {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 0 10px; 
+  }
+  
+  .menu a:hover {
+    color: #ff0000;
+  }
+  
+  .menu a.active {
+    color: #ff0000;
+    font-weight: bold;
+  }

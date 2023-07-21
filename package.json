@@ -1,0 +1,24 @@
+{
+  "name": "paginawebintegradora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "victor manuel tiburcio hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "parser": "^0.1.4",
+    "sequelize": "^6.32.1"
+  }
+}
